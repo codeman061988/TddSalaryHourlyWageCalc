@@ -6,9 +6,10 @@ Demonstrates my understanding of **Test Driven Development** through the creatio
 
 These are steps that we repeat for each unit test case
 
+### Red
+
 [![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot.PNG "Screenshot")
 
-### Red
 Add a failing test first. This makes us confident that our test is going to fail when we expect it to. There is no point in having a test that cannot catch bugs and always passes.
 
 Here we add an initial TestClass to a new solution in Visual Studio
