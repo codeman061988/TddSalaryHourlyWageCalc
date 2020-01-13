@@ -22,6 +22,14 @@ We **act** by initializing a new variable of type decimal to hold our annualSala
 
 We **assert** that the outcome of GetAnnualSalary will be equal to 104000
 
+We add the expected SalaryCalculator class under a new project so that the project compiles. Still though, we can expect our test to fail because we have not yet added any business logic. All we have done is returned 0 from the method that our test invokes.
+
+Our new class:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot2.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot2.PNG "Screenshot")
+
+Back to the test, our project now compiles but as expected, our test fails:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot3.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot3.PNG "Screenshot")
+
 ### Green
 Update the failing code in our application so that the test passes. 
 
