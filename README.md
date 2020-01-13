@@ -69,10 +69,10 @@ As always, we want to be sure our refactor does not affect the functionality, so
 
 Even though its the ideal scenario with TDD to write test cases first that drive the design of a program, there are times where we may begin with an existing solution that we need to write test cases for.
 
-### Creating new tests
+#### Creating new tests
 - Assuming we come into a solution where there are no existing tests, we can start by creating a new test project. Since I personally lean towards monolithic design and naming conventions, this might look something like SolutionName/ProjectName.Tests.
 - Once we have a test project set up, we add a Project reference to the project(s) which contain our business logic. Again; from a monolithic design perspective, this would be SolutionName/ProjectName.Core
 
-### Testing existing code
+#### Testing existing code
 When we test existing code, we are essentially taking the requirements of the project and building tests which check that those requirements are satisfied and then run those tests against the existing code using known I/Os. 
-In our test project, we'll make reference to an existing class, create a new instance of that class and then probably create tests against existing methods within that class.
+When adding new components to an existing code project, we'll follow the same steps outlined above for those new components. 
