@@ -27,4 +27,21 @@ namespace TddSalaryHourlyWageCalc.Tests
             Assert.AreEqual(104000, annualSalary);
         }
     }
+
+    [TestClass]
+    public class HourlyWageTest
+    {
+        [TestMethod]
+        public void AnnualSalaryTest()
+        {
+            // Arrange
+            SalaryCalculator sc = new SalaryCalculator();
+
+            // Act
+            decimal hourlyWage = sc.GetHourlyWage(52000);
+
+            // Assert
+            Assert.AreEqual(25, hourlyWage);
+        }
+    }
 }
