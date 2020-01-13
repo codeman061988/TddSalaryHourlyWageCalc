@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using TddSalaryHourlyWageCalc.Core;
 
 namespace TddSalaryHourlyWageCalc.Tests
 {
