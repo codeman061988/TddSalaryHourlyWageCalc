@@ -31,7 +31,10 @@ Back to the test, our project now compiles but as expected, our test fails:
 [![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot3.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RedScreenshot3.PNG "Screenshot")
 
 ### Green
-Update the failing code in our application so that the test passes. 
+Update the failing code in our application so that the test passes:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/GreenScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/GreenScreenshot.PNG "Screenshot")
+
+
 
 ### Refactor
 Beutify our code. Remove duplicates, improve the design, make the code easier to read, adhere to coding standards, and the re-run the unit test to make sure it still passes after all of our changes.
