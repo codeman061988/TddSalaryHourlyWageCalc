@@ -2,9 +2,9 @@
 Demonstrates my understanding of **Test Driven Development** through the creation of an app, which calculates Salary and Hourly wages
 
 
-## Red, Green, Refactor
+## Creating our first test case using Red, Green, Refactor
 
-These are steps that we repeat for each unit test case
+These are stages that we repeat for each unit test case
 
 ### Red
 
@@ -34,7 +34,32 @@ Back to the test, our project now compiles but as expected, our test fails:
 Update the failing code in our application so that the test passes:
 [![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/GreenScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/GreenScreenshot.PNG "Screenshot")
 
-
+This would include filling in the blanks which make our testable method return the expected result.
 
 ### Refactor
-Beutify our code. Remove duplicates, improve the design, make the code easier to read, adhere to coding standards, and the re-run the unit test to make sure it still passes after all of our changes.
+Beautify our code. Remove duplicates, improve the design, make the code easier to read, adhere to coding standards, and the re-run the unit test to make sure it still passes after all of our changes:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RefactorScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/RefactorScreenshot.PNG "Screenshot")
+
+## Creating our second test case, again using Red, Green, Refactor stages
+
+Creating our hourly wage test
+
+### Red
+
+Since our second test case is similar to our first, we simply copied/pasted the first test case and then renamed a few items: 
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRedScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRedScreenshot.PNG "Screenshot")
+
+We add the underlying method that we expect to provide our functionality. We are again in the Red stage; we intentionally have a failing test:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRedScreenshot2.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRedScreenshot2.PNG "Screenshot")
+
+### Green
+
+We build out the method that handles our business logic, returning the anticipated value for our test:
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondGreenScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondGreenScreenshot.PNG "Screenshot")
+
+### Refactor
+To illustrate redactor in this method, we'll just refactor the method using an expression-bodied function member:
+
+[![Screenshot](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRefactorScreenshot.PNG "Screenshot")](https://github.com/codeman061988/TddSalaryHourlyWageCalc/blob/master/docs/SecondRefactorScreenshot.PNG "Screenshot")
+
+As always, we want to be sure our refactor does not affect the functionality so we just re-run the test again after making the changes.
